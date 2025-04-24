@@ -1,0 +1,793 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "twy4-5nxu",
+      "name" : "2017 CEV Data: Current Population Survey Civic Engagement and Volunteering Supplement",
+      "assetType" : "dataset",
+      "attribution" : "AmeriCorps",
+      "averageRating" : 0,
+      "createdAt" : 1737046245,
+      "description" : "The Current Population Survey Civic Engagement and Volunteering (CEV) Supplement is the most robust longitudinal survey about volunteerism and other forms of civic engagement in the United States. Produced by AmeriCorps in partnership with the U.S. Census Bureau, the CEV takes the pulse of our nation’s civic health every two years. The data on this page was collected in September 2017.\n\nThe CEV can generate reliable estimates at the national level, within states and the District of Columbia, and in the largest twelve Metropolitan Statistical Areas to support evidence-based decision making and efforts to understand how people make a difference in communities across the country.\n\nThis page was updated on January 16, 2025 to ensure consistency across all waves of CEV data.\n\nClick on \"Export\" to download and review an excerpt from the 2017 CEV Analytic Codebook that shows the variables available in the analytic CEV datasets produced by AmeriCorps.\n\nClick on \"Show More\" to download and review the following 2017 CEV data and resources provided as attachments:\n\n1) CEV FAQs – answers to frequently asked technical questions about the CEV\n2) Constructs and measures in the CEV\n3) 2017 CEV Analytic Data and Setup Files – analytic dataset in Stata (.dta), R (.rdata), SPSS (.sav), and Excel (.csv) formats, codebook for analytic dataset, and Stata code (.do) to convert raw dataset to analytic formatting produced by AmeriCorps. \n4) 2017 CEV Technical Documentation – codebook for raw dataset and full supplement documentation produced by U.S. Census Bureau\n5) 2017 CEV Raw Data and Read In Files – raw dataset in Stata (.dta) format, Stata code (.do) and dictionary file (.dct) to read ASCII dataset (.dat) into Stata using layout files (.lis)",
+      "diciBackend" : false,
+      "displayType" : "table",
+      "domainCName" : "data.americorps.gov",
+      "downloadCount" : 206,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "USGOV_WORKS",
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 41063961,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1737047783,
+      "publicationGroup" : 19744974,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1737047778,
+      "rowsUpdatedBy" : "id39-hjyq",
+      "tableId" : 19744974,
+      "totalTimesRated" : 0,
+      "viewCount" : 91,
+      "viewLastModified" : 1737047783,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1737050347,
+        "reviewedAutomatically" : false,
+        "state" : "approved",
+        "submissionId" : 6689621,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1737048171,
+        "targetAudience" : "public",
+        "workflowId" : 3400,
+        "reviewer" : {
+          "id" : "4r88-v6bf",
+          "displayName" : "Kurz, David"
+        },
+        "submissionDetails" : {
+          "permissionType" : "read"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1737050347,
+          "failureCount" : 0,
+          "startedAt" : 1737050347,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "id39-hjyq",
+          "displayName" : "Laura Hanson Schlachter"
+        }
+      }, {
+        "message" : "The `strict_permissions` flag must be on to enable internal approvals.",
+        "state" : "unsubmittable",
+        "targetAudience" : "internal",
+        "workflowId" : 4720
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 604225364,
+        "name" : "Analysis Variable Name",
+        "dataTypeName" : "text",
+        "description" : "name of variable in analytic dataset",
+        "fieldName" : "analysis_variable_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 156350832,
+        "cachedContents" : {
+          "non_null" : "84",
+          "largest" : "yesviews",
+          "null" : "0",
+          "top" : [ {
+            "item" : "weeklynews",
+            "count" : "1"
+          }, {
+            "item" : "fftalk",
+            "count" : "1"
+          }, {
+            "item" : "prsupint",
+            "count" : "1"
+          }, {
+            "item" : "pes16",
+            "count" : "1"
+          }, {
+            "item" : "female",
+            "count" : "1"
+          }, {
+            "item" : "simedu",
+            "count" : "1"
+          }, {
+            "item" : "help",
+            "count" : "1"
+          }, {
+            "item" : "disability",
+            "count" : "1"
+          }, {
+            "item" : "taught",
+            "count" : "1"
+          }, {
+            "item" : "volrel",
+            "count" : "1"
+          }, {
+            "item" : "yesffissues",
+            "count" : "1"
+          }, {
+            "item" : "hefaminc",
+            "count" : "1"
+          }, {
+            "item" : "labored",
+            "count" : "1"
+          }, {
+            "item" : "clothed",
+            "count" : "1"
+          }, {
+            "item" : "prself",
+            "count" : "1"
+          }, {
+            "item" : "fundraised",
+            "count" : "1"
+          }, {
+            "item" : "yesnews",
+            "count" : "1"
+          }, {
+            "item" : "black",
+            "count" : "1"
+          }, {
+            "item" : "mentored",
+            "count" : "1"
+          }, {
+            "item" : "weeklyntalk",
+            "count" : "1"
+          } ],
+          "smallest" : "action",
+          "count" : "84",
+          "cardinality" : "84"
+        },
+        "format" : { }
+      }, {
+        "id" : 604225363,
+        "name" : "Original Variable Name",
+        "dataTypeName" : "text",
+        "description" : "name of variable in census technical documentation",
+        "fieldName" : "original_variable_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 156350831,
+        "cachedContents" : {
+          "non_null" : "84",
+          "largest" : "pwnrwgt",
+          "null" : "0",
+          "top" : [ {
+            "item" : "prtage",
+            "count" : "4"
+          }, {
+            "item" : "pes10",
+            "count" : "4"
+          }, {
+            "item" : "ptdtrace",
+            "count" : "3"
+          }, {
+            "item" : "pes2",
+            "count" : "3"
+          }, {
+            "item" : "pes4",
+            "count" : "3"
+          }, {
+            "item" : "pes9",
+            "count" : "3"
+          }, {
+            "item" : "prchld",
+            "count" : "3"
+          }, {
+            "item" : "pes1",
+            "count" : "3"
+          }, {
+            "item" : "pes11",
+            "count" : "2"
+          }, {
+            "item" : "pes6",
+            "count" : "2"
+          }, {
+            "item" : "hefaminc",
+            "count" : "2"
+          }, {
+            "item" : "pes5",
+            "count" : "2"
+          }, {
+            "item" : "peeduca",
+            "count" : "1"
+          }, {
+            "item" : "prself",
+            "count" : "1"
+          }, {
+            "item" : "pes16c13",
+            "count" : "1"
+          }, {
+            "item" : "pes15a",
+            "count" : "1"
+          }, {
+            "item" : "pes3",
+            "count" : "1"
+          }, {
+            "item" : "pes16c7",
+            "count" : "1"
+          }, {
+            "item" : "peafever",
+            "count" : "1"
+          }, {
+            "item" : "pes16b3",
+            "count" : "1"
+          } ],
+          "smallest" : "gestfips",
+          "count" : "84",
+          "cardinality" : "62"
+        },
+        "format" : { }
+      }, {
+        "id" : 604225362,
+        "name" : "Variable Type",
+        "dataTypeName" : "text",
+        "description" : "type of variable in analytic dataset",
+        "fieldName" : "variable_type",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 156350830,
+        "cachedContents" : {
+          "non_null" : "84",
+          "largest" : "Numeric",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Binary",
+            "count" : "54"
+          }, {
+            "item" : "Categorical",
+            "count" : "27"
+          }, {
+            "item" : "Numeric",
+            "count" : "3"
+          } ],
+          "smallest" : "Binary",
+          "count" : "84",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 604225361,
+        "name" : "Format Name",
+        "dataTypeName" : "text",
+        "description" : "format of variable in analytic dataset",
+        "fieldName" : "format_name",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 156350829,
+        "cachedContents" : {
+          "non_null" : "80",
+          "largest" : "yesno",
+          "null" : "4",
+          "top" : [ {
+            "item" : "dummy",
+            "count" : "54"
+          }, {
+            "item" : "freq",
+            "count" : "10"
+          }, {
+            "item" : "[see Census codebook]",
+            "count" : "2"
+          }, {
+            "item" : "yesno",
+            "count" : "2"
+          }, {
+            "item" : "simage",
+            "count" : "1"
+          }, {
+            "item" : "simincome",
+            "count" : "1"
+          }, {
+            "item" : "simrace",
+            "count" : "1"
+          }, {
+            "item" : "status",
+            "count" : "1"
+          }, {
+            "item" : "online",
+            "count" : "1"
+          }, {
+            "item" : "income",
+            "count" : "1"
+          }, {
+            "item" : "num",
+            "count" : "1"
+          }, {
+            "item" : "simedu",
+            "count" : "1"
+          }, {
+            "item" : "prsupint",
+            "count" : "1"
+          }, {
+            "item" : "topmsa",
+            "count" : "1"
+          }, {
+            "item" : "prself",
+            "count" : "1"
+          }, {
+            "item" : "cohort",
+            "count" : "1"
+          } ],
+          "smallest" : "cohort",
+          "count" : "84",
+          "cardinality" : "16"
+        },
+        "format" : { }
+      }, {
+        "id" : 604225360,
+        "name" : "Label",
+        "dataTypeName" : "text",
+        "description" : "short description of variable in analytic dataset",
+        "fieldName" : "label",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 156350828,
+        "cachedContents" : {
+          "non_null" : "84",
+          "largest" : "Voter status in last local election",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Family income",
+            "count" : "1"
+          }, {
+            "item" : "Simplified race",
+            "count" : "1"
+          }, {
+            "item" : "Provided care services as volunteer",
+            "count" : "1"
+          }, {
+            "item" : "Employed [not unemployed or NILF]",
+            "count" : "1"
+          }, {
+            "item" : "Posted views online weekly [pes9=>A few times a week]",
+            "count" : "1"
+          }, {
+            "item" : "Transported others as volunteer",
+            "count" : "1"
+          }, {
+            "item" : "Volunteered for health org",
+            "count" : "1"
+          }, {
+            "item" : "Rank of largest 12 MSAs in US by population size in 2014",
+            "count" : "1"
+          }, {
+            "item" : "Volunteered for public safety org",
+            "count" : "1"
+          }, {
+            "item" : "Talked with friends or family [pes1!=Not at all]",
+            "count" : "1"
+          }, {
+            "item" : "Freq of discussing issues with friends or family",
+            "count" : "1"
+          }, {
+            "item" : "Volunteered for sport or arts org",
+            "count" : "1"
+          }, {
+            "item" : "Freq of talking with people from a different background",
+            "count" : "1"
+          }, {
+            "item" : "Parent of own child(ren) under 18",
+            "count" : "1"
+          }, {
+            "item" : "Supplement interview status recode",
+            "count" : "1"
+          }, {
+            "item" : "Engaged in other activity as volunteer",
+            "count" : "1"
+          }, {
+            "item" : "Simplified persons age",
+            "count" : "1"
+          }, {
+            "item" : "Volunteered for civic org",
+            "count" : "1"
+          }, {
+            "item" : "Freq of posting views online",
+            "count" : "1"
+          }, {
+            "item" : "Parent of own child(ren) 5-17",
+            "count" : "1"
+          } ],
+          "smallest" : "Age by generational cohort",
+          "count" : "84",
+          "cardinality" : "84"
+        },
+        "format" : { }
+      }, {
+        "id" : 604225359,
+        "name" : "Full Question Text/Census Codebook Label",
+        "dataTypeName" : "text",
+        "description" : "full text of survey question analytic variable is based on/label for analytic variable in census technical documenation",
+        "fieldName" : "full_question_text_census",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 156350827,
+        "cachedContents" : {
+          "non_null" : "59",
+          "largest" : "Volunteer status recode",
+          "null" : "25",
+          "top" : [ {
+            "item" : "In the past 12 months, did [you/he/she] engage in music, performance, or other artistic activities [for an organization]?",
+            "count" : "1"
+          }, {
+            "item" : "In the past 12 months, did [you/he/she] engaged in general labor or supply transportation for people [for an organization]?",
+            "count" : "1"
+          }, {
+            "item" : "In the past 12 months, did [you/[NAME] belong to any groups, organizations, or associations?",
+            "count" : "1"
+          }, {
+            "item" : "In the past 12 months, did [you/he]she] volunteer for an other type of organization?",
+            "count" : "1"
+          }, {
+            "item" : "[In the past 12 months,] how often did [you/[NAME]] post [your/his/her] views about political, societal, or local issues on the internet or social media?",
+            "count" : "1"
+          }, {
+            "item" : "In the past 12 months, did [you/he/she] tutor or teach [for an organization]?",
+            "count" : "1"
+          }, {
+            "item" : "In the past 12 months, approximately how many hours did [you/[NAME]] volunteer?",
+            "count" : "1"
+          }, {
+            "item" : "How many groups, organizations, or associations would you say [you have/[NAME] has] belonged to over the past 12 months?",
+            "count" : "1"
+          }, {
+            "item" : "Supplement interview status recode",
+            "count" : "1"
+          }, {
+            "item" : "[In the past 12 months,] how often did [you/[NAME]] and [your/his/her] neighbors do favors for each other such as house sitting, watching each other’s children, lending tools, and other things to help each other?",
+            "count" : "1"
+          }, {
+            "item" : "In the past 12 months, did [you/he/she] mentor youth [for an organization]?",
+            "count" : "1"
+          }, {
+            "item" : "Combined income of all family members during the last 12 months",
+            "count" : "1"
+          }, {
+            "item" : "In the past 12 months, did [you/he]she] volunteer for an education or youth service organization?",
+            "count" : "1"
+          }, {
+            "item" : "[In the past 12 months,] how often did [you/[NAME] discuss political, societal, or local issues with friends or family?",
+            "count" : "1"
+          }, {
+            "item" : "Does this person have any of these disability conditions?",
+            "count" : "1"
+          }, {
+            "item" : "[In the past 12 months,] how often did [you/[NAME]] discuss political, societal, or local issues with [your/his/her] neighbors?",
+            "count" : "1"
+          }, {
+            "item" : "In the past 12 months, did [you/he/she] provide general office services [for an organization]?",
+            "count" : "1"
+          }, {
+            "item" : "[In the past 12 months,] how often did [you/NAME] provide food, housing, money or help for friends or extended family? Do not include anything [you do/[NAME] does] for [your/his/her] children, parents, and spouses, partners, or significant others even if they do not live with [you/him/her].",
+            "count" : "1"
+          }, {
+            "item" : "Thinking about the group, organization, or association with which [you are/NAME is] most active, which best describes the proportion of [your/his/her] in-person activity to online activity?",
+            "count" : "1"
+          }, {
+            "item" : "[In the past 12 months,] how often did [you/[NAME]] read, watch or listen to news or information about political, societal, or local issues?",
+            "count" : "1"
+          } ],
+          "smallest" : "Combined income of all family members during the last 12 months",
+          "count" : "84",
+          "cardinality" : "59"
+        },
+        "format" : { }
+      }, {
+        "id" : 604225358,
+        "name" : "In 2017 dataset",
+        "dataTypeName" : "checkbox",
+        "description" : "true if variable is in 2017 cev analytic data",
+        "fieldName" : "in_2017_dataset",
+        "position" : 7,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 156350826,
+        "cachedContents" : {
+          "non_null" : "84",
+          "null" : "0",
+          "top" : [ {
+            "item" : true,
+            "count" : "84"
+          } ],
+          "count" : "84",
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 604225357,
+        "name" : "Notes",
+        "dataTypeName" : "text",
+        "description" : "notes for data users",
+        "fieldName" : "notes",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 156350825,
+        "cachedContents" : {
+          "non_null" : "12",
+          "largest" : "Use with supplement variables pes1-pes18 and peswp2",
+          "null" : "72",
+          "top" : [ {
+            "item" : "Racial groups defined to mirror categories in ORE demographic table",
+            "count" : "1"
+          }, {
+            "item" : "Generational cohorts are defined based on thresholds from the Pew Research Center (see https://www.pewsocialtrends.org/essay/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far/). In 2023, members of Generation Z (born after 1996) were 26 years old or younger, Millennials (born 1981 to 1996) were aged 27 to 42, members of Generation X (born 1965 to 1980) were aged 43 to 58, and Baby Boomers (born 1946 to 1964) were aged 59 to 77. Since topcoding made it impossible to differentiate between members of the Silent (born 1928 to 1945) and Greatest Generations (born 1901 to 1927), all respondents aged 78 or older in 2023 were coded as “Silent Generation or older.\"",
+            "count" : "1"
+          }, {
+            "item" : "Topcoded at 500; variable name in Census documentation changed from pes16e to pts16e in 2019 but analytic read-in and setup files consistently use \"pts16e\"",
+            "count" : "1"
+          }, {
+            "item" : "Recodes ineligible voters as not in universe",
+            "count" : "1"
+          }, {
+            "item" : "Use with supplement variables pes1-pes18 and peswp2",
+            "count" : "1"
+          }, {
+            "item" : "Categorical 80-84; topcoded at 85",
+            "count" : "1"
+          }, {
+            "item" : "Age groups defined to mirror categories in ORE demographic table",
+            "count" : "1"
+          }, {
+            "item" : "Family income groups defined to mirror question in AmeriCorps application and enrollment forms",
+            "count" : "1"
+          }, {
+            "item" : "See core module documentation for exact question wording",
+            "count" : "1"
+          }, {
+            "item" : "Metropolitan Statistical Areas (MSAs) are defined using February 28, 2013 OMB definitions. CPS sampling procedures are redesigned after each decennial Census to ensure that estimates are reliable for the largest 12 MSAs. To identify the largest 12 MSAs for CEV waves between 2017 and 2023, reference 2014 estimates in Annual Estimates of the Resident Population for Metropolitan Statistical Areas in the United States and Puerto Rico: April 1, 2010 to July 1, 2019 at https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-metro-and-micro-statistical-areas.html. The next redesign will be phased in between April 2024 and the end of 2025.",
+            "count" : "1"
+          }, {
+            "item" : "Educational groups defined to mirror categories in ORE demographic table",
+            "count" : "1"
+          }, {
+            "item" : "Older adult defined by ACS threshold of 55 years",
+            "count" : "1"
+          } ],
+          "smallest" : "Age groups defined to mirror categories in ORE demographic table",
+          "count" : "84",
+          "cardinality" : "12"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain U.S. Government",
+        "termsLink" : "https://www.usa.gov/government-works"
+      },
+      "metadata" : {
+        "attachments" : [ {
+          "filename" : "CEV_FAQs_01082025_508_final_UPDATE.pdf",
+          "assetId" : "a35c024b-9c32-4006-a83c-b972cd0febc3",
+          "name" : "CEV FAQs"
+        }, {
+          "filename" : "CEV-2023-Constructs_09202024_final_508.pdf",
+          "assetId" : "43394571-81f6-4016-b90d-2432140e8920",
+          "name" : "CEV Constructs and Measures"
+        }, {
+          "filename" : "2017 CEV Analytic Data and Setup Files.zip",
+          "assetId" : "7332d264-b016-4909-bbce-c3813df164f7",
+          "name" : "2017 CEV Analytic Data and Setup Files.zip"
+        }, {
+          "filename" : "2017 CEV Technical Documentation.pdf",
+          "assetId" : "ff4c2de3-be20-445a-9190-d4704d262d3c",
+          "name" : "2017 CEV Technical Documentation"
+        }, {
+          "filename" : "2017 CEV Raw Data and Read In Files.zip",
+          "assetId" : "2d1e1278-42f7-44d6-8d26-2370a128db3b",
+          "name" : "2017 CEV Raw Data and Read In Files.zip"
+        } ],
+        "custom_fields" : {
+          "Additional Information" : {
+            "Recommended Citation" : "AmeriCorps. Current Population Survey Civic Engagement and Volunteering (CEV) Supplement, 2017. Analytical version. Washington, DC: U.S. Census Bureau [producer]. Washington, DC: AmeriCorps Office of Research and Evaluation [producer and distributor]. Web. [access date].",
+            "Additional Resources" : "See attachments",
+            "Responsible Office Within Agency" : "Office of Research and Evaluation"
+          },
+          "Common Core" : {
+            "Contact Email" : "AmeriCorpsCEV@americorps.gov",
+            "Language" : "en-US",
+            "References" : "https://www.census.gov/data/datasets/time-series/demo/cps/cps-supp_cps-repwgt/cps-volunteer.2017.html#list-tab-1048706686",
+            "Contact Name" : "The CEV Research Team",
+            "Update Frequency" : "irregular",
+            "Last Update" : "1/16/2025",
+            "Program Code" : "485:000",
+            "Publisher" : "AmeriCorps Office of Research and Evaluation",
+            "Bureau Code" : "485:00",
+            "Public Access Level" : "public"
+          },
+          "Scope and Iteration" : {
+            "Time Period" : "September 2016 to September 2017",
+            "Coverage" : "National",
+            "Granularity" : "State"
+          }
+        },
+        "rowLabel" : "Field in 2017 CEV Analytic Codebook",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "id39-hjyq",
+        "displayName" : "Laura Hanson Schlachter",
+        "screenName" : "Laura Hanson Schlachter",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "id39-hjyq",
+        "displayName" : "Laura Hanson Schlachter",
+        "screenName" : "Laura Hanson Schlachter",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "cev", "2017", "2017 cev", "civic engagement", "volunteering", "americorps", "census", "volunteering in america", "volunteering and civic life in america" ],
+      "flags" : [ "default", "federated", "internalToPublicFederatedView", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-bfzq-n59a.kmyk", "00000000-0000-0000-0441-35DEC3E2F335", 0, 1737047778, null, 1737047778, null, "{ }", "supwgt", "pwnrwgt", "Numeric", null, "Nonresponse supplement weight", "Nonresponse supplement weight", true, "Use with supplement variables pes1-pes18 and peswp2" ]
+, [ "row-8ieh.i6y9~hyhu", "00000000-0000-0000-18A7-F9A1AE8F1510", 0, 1737047778, null, 1737047778, null, "{ }", "fftalk", "pes1", "Categorical", "freq", "Freq of talking with friends or family", "In the past 12 months, that is from September 2016 until today, how often did [you/[NAME]] talk to or spend time with friends and family?", true, null ]
+, [ "row-c5c8-qvkk~pmtw", "00000000-0000-0000-ACAB-432F359480E0", 0, 1737047778, null, 1737047778, null, "{ }", "yesfftalk", "pes1", "Binary", "dummy", "Talked with friends or family [pes1!=Not at all]", null, true, null ]
+, [ "row-x69n-szy2~hte8", "00000000-0000-0000-BF47-517D17228D75", 0, 1737047778, null, 1737047778, null, "{ }", "weeklyfftalk", "pes1", "Binary", "dummy", "Talked with friends or family weekly [pes1>=A few times a week]", null, true, null ]
+, [ "row-t6va_ttyk-wqc9", "00000000-0000-0000-60AF-8206E55172E6", 0, 1737047778, null, 1737047778, null, "{ }", "ffissues", "pes2", "Categorical", "freq", "Freq of discussing issues with friends or family", "[In the past 12 months,] how often did [you/[NAME] discuss political, societal, or local issues with friends or family?", true, null ]
+, [ "row-knc5_6fam-59xh", "00000000-0000-0000-FC0C-D3C8260957E9", 0, 1737047778, null, 1737047778, null, "{ }", "yesffissues", "pes2", "Binary", "dummy", "Discussed issues with friends or family [pes2!=Not at all]", null, true, null ]
+, [ "row-enp9_cw72.t2e8", "00000000-0000-0000-2B9F-13C8AB3DDDA7", 0, 1737047778, null, 1737047778, null, "{ }", "weeklyffissues", "pes2", "Binary", "dummy", "Discussed issues with friends or family weekly [pes2>=A few times a week]", null, true, null ]
+, [ "row-8g6t.rmcr~9eib", "00000000-0000-0000-AACE-AD1314E5E8BB", 0, 1737047778, null, 1737047778, null, "{ }", "help", "pes3", "Categorical", "freq", "Freq of helping friends or extended family", "[In the past 12 months,] how often did [you/NAME] provide food, housing, money or help for friends or extended family? Do not include anything [you do/[NAME] does] for [your/his/her] children, parents, and spouses, partners, or significant others even if they do not live with [you/him/her].", true, null ]
+, [ "row-9fp2~v7mi.93g3", "00000000-0000-0000-40A4-3FDA899DFC67", 0, 1737047778, null, 1737047778, null, "{ }", "ntalk", "pes4", "Categorical", "freq", "Freq of talking with neighbors", "In the past 12 months, how often did [you/[NAME]] have a conversation or spend time with [your/his/her] neighbors?", true, null ]
+, [ "row-7wkh~mds6-e8i9", "00000000-0000-0000-25CF-D60FDF9790AB", 0, 1737047778, null, 1737047778, null, "{ }", "yesntalk", "pes4", "Binary", "dummy", "Talked with neighbors [pes4!=Not at all]", null, true, null ]
+, [ "row-ytgb-22t7~p99w", "00000000-0000-0000-907D-B32654EE0B8C", 0, 1737047778, null, 1737047778, null, "{ }", "weeklyntalk", "pes4", "Binary", "dummy", "Talked with neighbors weekly [pes4>=A few times a week]", null, true, null ]
+, [ "row-fuuf-xrna.7zbg", "00000000-0000-0000-338A-225C2A400291", 0, 1737047778, null, 1737047778, null, "{ }", "nissues", "pes5", "Categorical", "freq", "Freq of discussing issues with neighbors", "[In the past 12 months,] how often did [you/[NAME]] discuss political, societal, or local issues with [your/his/her] neighbors?", true, null ]
+, [ "row-pm3x~xgyc~fs9a", "00000000-0000-0000-2327-0EEA66C20D11", 0, 1737047778, null, 1737047778, null, "{ }", "yesnissues", "pes5", "Binary", "dummy", "Discussed issues with neighbors [pes5!=Not at all]", null, true, null ]
+, [ "row-r9wr_bsxe-jvf5", "00000000-0000-0000-557C-A725AA90E1CB", 0, 1737047778, null, 1737047778, null, "{ }", "favors", "pes6", "Categorical", "freq", "Freq of exchanging favors with neighbors", "[In the past 12 months,] how often did [you/[NAME]] and [your/his/her] neighbors do favors for each other such as house sitting, watching each other’s children, lending tools, and other things to help each other?", true, null ]
+, [ "row-4eu4_pu68_fpzd", "00000000-0000-0000-F48E-7F697EEF77F1", 0, 1737047778, null, 1737047778, null, "{ }", "yesfavors", "pes6", "Binary", "dummy", "Exchanged favors with neighbors [pes6!=Not at all]", null, true, null ]
+, [ "row-q8v3~9xgt.6ep8", "00000000-0000-0000-4BD4-CF08812A059D", 0, 1737047778, null, 1737047778, null, "{ }", "action", "pes7", "Binary", "dummy", "Took collective action with neighbors", "[In the past 12 months,] did [you/[NAME] get together with other people from [your/his/her] neighborhood to do something positive for [your/his/her] neighborhood or the community?", true, null ]
+, [ "row-jpwy.9snx~4vw9", "00000000-0000-0000-85DD-41C480CF9BDC", 0, 1737047778, null, 1737047778, null, "{ }", "dbtalk", "pes8", "Categorical", "freq", "Freq of talking with people from a different background", "[In the past 12 months,] how often did [you/NAME] talk to or spend time with people from a racial, ethnic, or cultural background that is different from [yours/his/hers]? This may have been in person, over the phone, or through the internet or social media.", true, null ]
+, [ "row-2j5b.emad.5nm4", "00000000-0000-0000-4EDF-2746D517A15A", 0, 1737047778, null, 1737047778, null, "{ }", "views", "pes9", "Categorical", "freq", "Freq of posting views online", "[In the past 12 months,] how often did [you/[NAME]] post [your/his/her] views about political, societal, or local issues on the internet or social media?", true, null ]
+, [ "row-6cj4-hn6e.h6j8", "00000000-0000-0000-29DB-8FB6CA2E94E2", 0, 1737047778, null, 1737047778, null, "{ }", "yesviews", "pes9", "Binary", "dummy", "Posted views online [pes9!=Not at all]", null, true, null ]
+, [ "row-uxxg~tnbs~78zw", "00000000-0000-0000-09FF-DC6521514B4B", 0, 1737047778, null, 1737047778, null, "{ }", "weeklyviews", "pes9", "Binary", "dummy", "Posted views online weekly [pes9=>A few times a week]", null, true, null ]
+, [ "row-dyxk-69wm-6fae", "00000000-0000-0000-328B-5C7E3B1CD1F6", 0, 1737047778, null, 1737047778, null, "{ }", "news", "pes10", "Categorical", "freq", "Freq of news intake about issues", "[In the past 12 months,] how often did [you/[NAME]] read, watch or listen to news or information about political, societal, or local issues?", true, null ]
+, [ "row-4u96.6wrr_r4pb", "00000000-0000-0000-2F98-606D431DA79E", 0, 1737047778, null, 1737047778, null, "{ }", "yesnews", "pes10", "Binary", "dummy", "Consumed news about issues [pes10!=Not at all]", null, true, null ]
+, [ "row-ydhe-xenr~4ikx", "00000000-0000-0000-4654-73CD815C0FFE", 0, 1737047778, null, 1737047778, null, "{ }", "dailynews", "pes10", "Binary", "dummy", "Consumed news about issues daily [pes10==Basically every day]", null, true, null ]
+, [ "row-tfss.gxys-yd27", "00000000-0000-0000-0C66-43DA5499ED28", 0, 1737047778, null, 1737047778, null, "{ }", "weeklynews", "pes10", "Binary", "dummy", "Consumed news about issues weekly [pes10=>A few times a week]", null, true, null ]
+, [ "row-8h2d-vx53.cih3", "00000000-0000-0000-D71C-9387339F1503", 0, 1737047778, null, 1737047778, null, "{ }", "voterstatus", "pes11", "Categorical", "status", "Voter status in last local election", "[In the past 12 months,] did [you/[NAME] vote in the last local elections, such as for mayor or school board?", true, null ]
+, [ "row-up55~r3pw-atuf", "00000000-0000-0000-426C-765203CFB8D3", 0, 1737047778, null, 1737047778, null, "{ }", "vote", "pes11", "Binary", "dummy", "Voted in last local election [pes11==Yes]", null, true, "Recodes ineligible voters as not in universe" ]
+, [ "row-sxsz~apk2-6qy4", "00000000-0000-0000-437D-39CEC0CB0AD1", 0, 1737047778, null, 1737047778, null, "{ }", "meeting", "pes12", "Binary", "dummy", "Attended a public meeting", "[In the past 12 months,] did [you/[NAME] attend a public meeting, such as a zoning or school board meeting, to discuss a local issue?", true, null ]
+, [ "row-2yuu~zi6z-uuj3", "00000000-0000-0000-EE2C-903574BA8642", 0, 1737047778, null, 1737047778, null, "{ }", "contact", "pes13", "Binary", "dummy", "Contacted a public official", "[In the past 12 months,] did [you/[NAME] contact or visit a public official – at any level of government – to express [your/his/her] opinion?", true, null ]
+, [ "row-ypxi-3qxa_y7xk", "00000000-0000-0000-FB94-F5A989AF19F9", 0, 1737047778, null, 1737047778, null, "{ }", "boycott", "pes14", "Binary", "dummy", "Bought or boycotted", "[In the past 12 months,] Did [you/[NAME] buy or boycott products or services based on the political values or business practices of that company?", true, null ]
+, [ "row-zd7n-b99j_ay3c", "00000000-0000-0000-BD38-C9D1F0FE08F1", 0, 1737047778, null, 1737047778, null, "{ }", "org", "pes15", "Binary", "dummy", "Belonged to an organization", "In the past 12 months, did [you/[NAME] belong to any groups, organizations, or associations?", true, null ]
+, [ "row-3wky~2bq3~9d3c", "00000000-0000-0000-3368-4F821F90A00C", 0, 1737047778, null, 1737047778, null, "{ }", "numorg", "pes15a", "Categorical", "num", "Number of organizational memberships", "How many groups, organizations, or associations would you say [you have/[NAME] has] belonged to over the past 12 months?", true, null ]
+, [ "row-bg4y.e3q2~kqxp", "00000000-0000-0000-DA9B-C9C8D4D25074", 0, 1737047778, null, 1737047778, null, "{ }", "online", "pes15a1", "Categorical", "online", "Proportion of in-person to online org activity", "Thinking about the group, organization, or association with which [you are/NAME is] most active, which best describes the proportion of [your/his/her] in-person activity to online activity?", true, null ]
+, [ "row-i9ts.i9kh-ciqh", "00000000-0000-0000-13B7-5D3770EF9E54", 0, 1737047778, null, 1737047778, null, "{ }", "pes16", "pes16", "Categorical", "yesno", "Volunteer item one", "In the past 12 months, did [you/[NAME]] spend any time volunteering for any organization or association?", true, null ]
+, [ "row-i766_etic~7s3v", "00000000-0000-0000-82B2-DBB46D5D50AB", 0, 1737047778, null, 1737047778, null, "{ }", "pes16a", "pes16a", "Categorical", "yesno", "Volunteer probe", "Some people don’t think of activities they do infrequently or for children’s schools or youth organizations as volunteer activities. In the past 12 months (have you/has she/has he) done any of these types of activities?", true, null ]
+, [ "row-tgti_bkbs-q6pd", "00000000-0000-0000-C1DD-DEDDA0AD0967", 0, 1737047778, null, 1737047778, null, "{ }", "volcivic", "pes16b1", "Binary", "dummy", "Volunteered for civic org", "In the past 12 months, did [you/he]she] volunteer for a civic, political, professional, or international organization?", true, null ]
+, [ "row-xd7k~hyxx~iq8b", "00000000-0000-0000-B7A7-5F1F7F39A11D", 0, 1737047778, null, 1737047778, null, "{ }", "voledu", "pes16b2", "Binary", "dummy", "Volunteered for education org", "In the past 12 months, did [you/he]she] volunteer for an education or youth service organization?", true, null ]
+, [ "row-vwzi_ivyg~5buf", "00000000-0000-0000-E06D-6DFD91B1BCB8", 0, 1737047778, null, 1737047778, null, "{ }", "volenv", "pes16b3", "Binary", "dummy", "Volunteered for environmental org", "In the past 12 months, did [you/he]she] volunteer for an environmental or animal care organization?", true, null ]
+, [ "row-vymv_mzq7~dn8c", "00000000-0000-0000-23EF-98E8A609E584", 0, 1737047778, null, 1737047778, null, "{ }", "volhealth", "pes16b4", "Binary", "dummy", "Volunteered for health org", "In the past 12 months, did [you/he]she] volunteer for a hospital or other health organization?", true, null ]
+, [ "row-iwh7_qn4t-qb9g", "00000000-0000-0000-928E-3E1843A51379", 0, 1737047778, null, 1737047778, null, "{ }", "volsafe", "pes16b5", "Binary", "dummy", "Volunteered for public safety org", "In the past 12 months, did [you/he]she] volunteer for a public safety organization?", true, null ]
+, [ "row-b3yp_6pk3~mz62", "00000000-0000-0000-5FA7-E31A30D6BCEA", 0, 1737047778, null, 1737047778, null, "{ }", "volrel", "pes16b6", "Binary", "dummy", "Volunteered for religious org", "In the past 12 months, did [you/he]she] volunteer for a religious organization?", true, null ]
+, [ "row-87je.febw-mayx", "00000000-0000-0000-28F9-08BC9B4B8186", 0, 1737047778, null, 1737047778, null, "{ }", "volservice", "pes16b7", "Binary", "dummy", "Volunteered for service org", "In the past 12 months, did [you/he]she] volunteer for a social or community service organization?", true, null ]
+, [ "row-p3cv-7gmw.yrk6", "00000000-0000-0000-2F7D-1AA1B1A4D2B5", 0, 1737047778, null, 1737047778, null, "{ }", "volsport", "pes16b8", "Binary", "dummy", "Volunteered for sport or arts org", "In the past 12 months, did [you/he]she] volunteer for a sport, hobby, cultural, or arts organization?", true, null ]
+, [ "row-uf2y_cidk-xd8m", "00000000-0000-0000-81B0-52F44E69DE95", 0, 1737047778, null, 1737047778, null, "{ }", "volother", "pes16b9", "Binary", "dummy", "Volunteered for other type of org", "In the past 12 months, did [you/he]she] volunteer for an other type of organization?", true, null ]
+, [ "row-sncd~76zd~qzv5", "00000000-0000-0000-E21A-E7CE2886F968", 0, 1737047778, null, 1737047778, null, "{ }", "coached", "pes16c1", "Binary", "dummy", "Coached as volunteer", "For each activity that I mention, please tell me - yes or no - whether [you/he/she] did that activity for an organization in the last year. In the past 12 months, did [you/he/she] coach, referee, or supervise sports teams?", true, null ]
+, [ "row-x9nt~g6tk~fntz", "00000000-0000-0000-3B63-E12949CDFD6B", 0, 1737047778, null, 1737047778, null, "{ }", "taught", "pes16c2", "Binary", "dummy", "Taught as volunteer", "In the past 12 months, did [you/he/she] tutor or teach [for an organization]?", true, null ]
+, [ "row-45vb.xswy.m53z", "00000000-0000-0000-E825-5088FFC6B802", 0, 1737047778, null, 1737047778, null, "{ }", "mentored", "pes16c3", "Binary", "dummy", "Mentored youth as volunteer", "In the past 12 months, did [you/he/she] mentor youth [for an organization]?", true, null ]
+, [ "row-ythd~f7g8~zkzh", "00000000-0000-0000-1AC1-FDCED55DD8D3", 0, 1737047778, null, 1737047778, null, "{ }", "ushered", "pes16c4", "Binary", "dummy", "Ushered, greeted, or ministered as volunteer", "In the past 12 months, did [you/he/she] serve as an usher, greeter, or minister [for an organization]?", true, null ]
+, [ "row-g2si-qatv~n4s9", "00000000-0000-0000-746B-B208006F53E6", 0, 1737047778, null, 1737047778, null, "{ }", "fed", "pes16c5", "Binary", "dummy", "Fed others as volunteer", "In the past 12 months, did [you/he/she] collect, prepare, distribute, or serve food [for an organization]?", true, null ]
+, [ "row-anwb.v8eh.hu78", "00000000-0000-0000-4CE3-331BBF82C228", 0, 1737047778, null, 1737047778, null, "{ }", "clothed", "pes16c6", "Binary", "dummy", "Clothed or made goods for others as volunteer", "In the past 12 months, did [you/he/she] collect, make, or distribute clothing, crafts, or goods other than food [for an organization]?", true, null ]
+, [ "row-cj9n_dqhc-h7ed", "00000000-0000-0000-AC6F-A4A2F0B3291F", 0, 1737047778, null, 1737047778, null, "{ }", "fundraised", "pes16c7", "Binary", "dummy", "Fundraised as volunteer", "In the past 12 months, did [you/he/she] fundraise or sell items to raise money [for an organization]?", true, null ]
+, [ "row-bpct.fk5u.8m8i", "00000000-0000-0000-CF6F-103376A13425", 0, 1737047778, null, 1737047778, null, "{ }", "cared", "pes16c8", "Binary", "dummy", "Provided care services as volunteer", "In the past 12 months, did [you/he/she] provide counseling, medical care, fire/EMS, or protective services [for an organization]?", true, null ]
+, [ "row-8zdi-r843.nvrk", "00000000-0000-0000-F75C-CEE2310166ED", 0, 1737047778, null, 1737047778, null, "{ }", "office", "pes16c9", "Binary", "dummy", "Provided office services as volunteer", "In the past 12 months, did [you/he/she] provide general office services [for an organization]?", true, null ]
+, [ "row-64mk~7dii-ytps", "00000000-0000-0000-4069-3CF4882B4B60", 0, 1737047778, null, 1737047778, null, "{ }", "gaveprof", "pes16c10", "Binary", "dummy", "Provided professional services as volunteer", "In the past 12 months, did [you/he/she] provide professional or management assistance including serving on a board or committee [for an organization]?", true, null ]
+, [ "row-i4fa_4wqy-8f32", "00000000-0000-0000-4744-DA32A213EB68", 0, 1737047778, null, 1737047778, null, "{ }", "performed", "pes16c11", "Binary", "dummy", "Performed as volunteer", "In the past 12 months, did [you/he/she] engage in music, performance, or other artistic activities [for an organization]?", true, null ]
+, [ "row-jn73~har4~ear4", "00000000-0000-0000-F1C0-748A9DAEC6DC", 0, 1737047778, null, 1737047778, null, "{ }", "labored", "pes16c12", "Binary", "dummy", "Transported others as volunteer", "In the past 12 months, did [you/he/she] engaged in general labor or supply transportation for people [for an organization]?", true, null ]
+, [ "row-yswg~imiy~p83v", "00000000-0000-0000-7050-B7BACBF0F00A", 0, 1737047778, null, 1737047778, null, "{ }", "actother", "pes16c13", "Binary", "dummy", "Engaged in other activity as volunteer", "In the past 12 months, did [you/he/she] engage in another type of activity [for an organization]?", true, null ]
+, [ "row-7t4j_qt78~x7x8", "00000000-0000-0000-5A16-84ED7CD0270F", 0, 1737047778, null, 1737047778, null, "{ }", "volfreq", "pes16d", "Categorical", "freq", "Freq of volunteering", "How often did [you/[NAME]] volunteer?", true, null ]
+, [ "row-k4gs-nwwq-fhgw", "00000000-0000-0000-DFE9-56623EB17039", 0, 1737047778, null, 1737047778, null, "{ }", "hoursvol", "pts16e", "Numeric", null, "Hours volunteered", "In the past 12 months, approximately how many hours did [you/[NAME]] volunteer?", true, "Topcoded at 500; variable name in Census documentation changed from pes16e to pts16e in 2019 but analytic read-in and setup files consistently use \"pts16e\"" ]
+, [ "row-gbxj~mu8h_7sfp", "00000000-0000-0000-7EB7-D705C759C356", 0, 1737047778, null, 1737047778, null, "{ }", "politicaldonor", "pes17", "Binary", "dummy", "Donated to a political cause", "[In the past 12 months,] did [you/[NAME] give money or possessions with a combined value of more than $25 to a political organization, party, or campaign?", true, null ]
+, [ "row-iv5y.tyyi_5y2r", "00000000-0000-0000-488B-DA0A2C1ACEE6", 0, 1737047778, null, 1737047778, null, "{ }", "donate", "pes18", "Binary", "dummy", "Donated to a non-political cause", "[In the past 12 months,] did [you/[NAME] give money or possessions with a combined value of more than $25 to a non-political group or organization, such as a charity, school, or religious organization?", true, null ]
+, [ "row-h2eg-d5in.ra54", "00000000-0000-0000-A328-3FD69499233B", 0, 1737047778, null, 1737047778, null, "{ }", "prsupint", "prsupint", "Categorical", "prsupint", "Supplement interview status recode", "Supplement interview status recode", true, null ]
+, [ "row-2qy9-ttqe_pf6r", "00000000-0000-0000-2582-A4B57AA5D8B9", 0, 1737047778, null, 1737047778, null, "{ }", "volunteer", "prsupvol", "Binary", "dummy", "Volunteered", "Volunteer status recode", true, null ]
+, [ "row-de2j_m2ap_644p", "00000000-0000-0000-E32F-5A535D1EE3C1", 0, 1737047778, null, 1737047778, null, "{ }", "prself", "prself", "Categorical", "prself", "Self response recode", "Self response recode", true, null ]
+, [ "row-73n6.k639_a8k2", "00000000-0000-0000-B634-B227D2AC950E", 0, 1737047778, null, 1737047778, null, "{ }", "prtage", "prtage", "Categorical", null, "Persons age", "Persons age", true, "Categorical 80-84; topcoded at 85" ]
+, [ "row-bxgi.2vzk~5k6z", "00000000-0000-0000-3C29-4AD0579D3921", 0, 1737047778, null, 1737047778, null, "{ }", "simage", "prtage", "Categorical", "simage", "Simplified persons age", null, true, "Age groups defined to mirror categories in ORE demographic table" ]
+, [ "row-nneg-w59t-qgks", "00000000-0000-0000-5E40-E1B7C7A53907", 0, 1737047778, null, 1737047778, null, "{ }", "older", "prtage", "Binary", "dummy", "Older adult (55+)", null, true, "Older adult defined by ACS threshold of 55 years" ]
+, [ "row-nked-xjtd~w6pw", "00000000-0000-0000-91CE-7A77511818E8", 0, 1737047778, null, 1737047778, null, "{ }", "generation", "prtage", "Categorical", "cohort", "Age by generational cohort", null, true, "Generational cohorts are defined based on thresholds from the Pew Research Center (see https://www.pewsocialtrends.org/essay/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far/). In 2023, members of Generation Z (born after 1996) were 26 years old or younger, Millennials (born 1981 to 1996) were aged 27 to 42, members of Generation X (born 1965 to 1980) were aged 43 to 58, and Baby Boomers (born 1946 to 1964) were aged 59 to 77. Since topcoding made it impossible to differentiate between members of the Silent (born 1928 to 1945) and Greatest Generations (born 1901 to 1927), all respondents aged 78 or older in 2023 were coded as “Silent Generation or older.\"" ]
+, [ "row-5aka_78hb_rjz6", "00000000-0000-0000-E35E-54094D788767", 0, 1737047778, null, 1737047778, null, "{ }", "simrace", "ptdtrace", "Categorical", "simrace", "Simplified race", null, true, "Racial groups defined to mirror categories in ORE demographic table" ]
+, [ "row-a2dd-rhrw.29r7", "00000000-0000-0000-3E07-DC1B89C52A90", 0, 1737047778, null, 1737047778, null, "{ }", "white", "ptdtrace", "Binary", "dummy", "Race is White only", null, true, null ]
+, [ "row-6gsa-bjg5_y87s", "00000000-0000-0000-BCDE-49FB4635DAB1", 0, 1737047778, null, 1737047778, null, "{ }", "black", "ptdtrace", "Binary", "dummy", "Race is Black only", null, true, null ]
+, [ "row-hrv9_92hy_32im", "00000000-0000-0000-0F28-48C613B304C6", 0, 1737047778, null, 1737047778, null, "{ }", "hispanic", "pehspnon", "Binary", "dummy", "Hispanic ethnicity", "Hispanic or non-Hispanic", true, null ]
+, [ "row-mvxw~2ysm_di33", "00000000-0000-0000-38BB-DEF4B8DFA989", 0, 1737047778, null, 1737047778, null, "{ }", "female", "pesex", "Binary", "dummy", "Female sex", "Sex", true, null ]
+, [ "row-xrtm~7g3b-jwf8", "00000000-0000-0000-C165-45027F980FA5", 0, 1737047778, null, 1737047778, null, "{ }", "simedu", "peeduca", "Categorical", "simedu", "Simplified education", null, true, "Educational groups defined to mirror categories in ORE demographic table" ]
+, [ "row-5ynh.42by.qs87", "00000000-0000-0000-B8B7-241D0DD60D91", 0, 1737047778, null, 1737047778, null, "{ }", "employed", "prempnot", "Binary", "dummy", "Employed [not unemployed or NILF]", "MLR - employed, unemployed, or NILF", true, null ]
+, [ "row-x8hb~nf23_aanj", "00000000-0000-0000-DAD6-467A23F5201E", 0, 1737047778, null, 1737047778, null, "{ }", "prchld", "prchld", "Categorical", "[see Census codebook]", "Presence of own children by age", "Presence of own children <18 years of age by selected age group", true, null ]
+, [ "row-eivn_pyux~v94t", "00000000-0000-0000-54D2-B5D16E7DF36A", 0, 1737047778, null, 1737047778, null, "{ }", "parent", "prchld", "Binary", "dummy", "Parent of own child(ren) under 18", null, true, null ]
+, [ "row-4i8b-pzhy-ag2h", "00000000-0000-0000-5260-78D00A6DCCAF", 0, 1737047778, null, 1737047778, null, "{ }", "prnmchld", "prnmchld", "Numeric", null, "Number of own children under 18", "Number of own children <18 years of age", true, null ]
+, [ "row-eew6~t6s5-hqvh", "00000000-0000-0000-C9FA-F979EC7ED149", 0, 1737047778, null, 1737047778, null, "{ }", "schoolparent", "prchld", "Binary", "dummy", "Parent of own child(ren) 5-17", null, true, null ]
+, [ "row-6dwa~3wzw_6p2m", "00000000-0000-0000-E252-D0DC4E68AB8D", 0, 1737047778, null, 1737047778, null, "{ }", "veteran", "peafever", "Binary", "dummy", "Veteran", "Did you ever serve on active duty in the U.S. armed forces?", true, null ]
+, [ "row-s6gy~nvki_szf9", "00000000-0000-0000-D46C-85D08DB0068E", 0, 1737047778, null, 1737047778, null, "{ }", "state", "gestfips", "Categorical", "[see Census codebook]", "State or DC", "Federal Information Processing Standards (FIPS) State Code", true, null ]
+, [ "row-bu4g_jz7i_aqxn", "00000000-0000-0000-0F26-DA09E0C4FD72", 0, 1737047778, null, 1737047778, null, "{ }", "topmsa", "gtcbsa", "Categorical", "topmsa", "Rank of largest 12 MSAs in US by population size in 2014", null, true, "Metropolitan Statistical Areas (MSAs) are defined using February 28, 2013 OMB definitions. CPS sampling procedures are redesigned after each decennial Census to ensure that estimates are reliable for the largest 12 MSAs. To identify the largest 12 MSAs for CEV waves between 2017 and 2023, reference 2014 estimates in Annual Estimates of the Resident Population for Metropolitan Statistical Areas in the United States and Puerto Rico: April 1, 2010 to July 1, 2019 at https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-metro-and-micro-statistical-areas.html. The next redesign will be phased in between April 2024 and the end of 2025." ]
+, [ "row-rbgw~eey5.um29", "00000000-0000-0000-85B8-045773619735", 0, 1737047778, null, 1737047778, null, "{ }", "hefaminc", "hefaminc", "Categorical", "income", "Family income", "Combined income of all family members during the last 12 months", true, "See core module documentation for exact question wording" ]
+, [ "row-n9g3-f2q8_kv6m", "00000000-0000-0000-FB24-8FF00CF6A4A5", 0, 1737047778, null, 1737047778, null, "{ }", "simfaminc", "hefaminc", "Categorical", "simincome", "Simplified family income", null, true, "Family income groups defined to mirror question in AmeriCorps application and enrollment forms" ]
+, [ "row-pk6d_8ia7_as22", "00000000-0000-0000-BB44-816CAAFD936E", 0, 1737047778, null, 1737047778, null, "{ }", "disability", "prdisflg", "Binary", "dummy", "Any disability", "Does this person have any of these disability conditions?", true, null ]
+ ]
+}
