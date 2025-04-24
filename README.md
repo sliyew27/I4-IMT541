@@ -7,7 +7,7 @@ This Python script demonstrates how to access three different types of informati
 
 ---
 
-## 🔧 Files Used
+## Files Used
 
 - **JSON File (Local Load):**  
   `2017 Current Population Survey Civic Engagement and Volunteering Supplement.json`
@@ -21,7 +21,7 @@ This Python script demonstrates how to access three different types of informati
 
 ---
 
-## 💻 How to Run
+## How to Run
 
 1. Make sure you have Python 3 installed.
 2. Install required packages:
@@ -40,7 +40,7 @@ Make sure the JSON and PDF files are in the same folder as the script.
 
 ---
 
-## 📊 What Each Section Does
+## What Each Section Does
 
 ### JSON (Local Load)
 
@@ -62,13 +62,13 @@ Make sure the JSON and PDF files are in the same folder as the script.
 
 ---
 
-## 📂 File List
+## File List
 
 - `access_data_structures.py` — the main Python script
 - `README.md` — this file
 
 ---
 
-## 📌 Notes
+## Notes
 
 This project is a simple demonstration and does not require editing the data — only accessing it. Each method is explained in comments within the code.
